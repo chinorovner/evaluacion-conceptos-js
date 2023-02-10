@@ -1,7 +1,8 @@
 /* 3.a */
-if(prompt("Ingrese su nombre por favor")){
-    alert("Bienvenido")
-}
+
+let nombre = prompt("Ingrese su nombre por favor")
+    alert("Bienvenido " + nombre)
+
 /**/
 
 /* 3.b */
