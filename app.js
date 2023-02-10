@@ -43,4 +43,3 @@ if(numero1 === numero2 && numero1 === numero3){
     alert("Los 3 numeros NO son iguales")
 }
 */
-hola
