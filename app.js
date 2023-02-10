@@ -3,9 +3,8 @@
 let nombre = prompt("Ingrese su nombre por favor")
     alert("Bienvenido " + nombre)
 
-/**/
 
-/* 3.b */
+/* 3.b
 
 let valorUno = parseInt(prompt("Ingrese un valor"))
 let valorDos = parseInt(prompt("Ingrese un segundo valor"))
@@ -16,9 +15,9 @@ if(valorUno){
 }{
     alert(resultado)
 }
-/**/
+*/
 
-/* 3.c */
+/* 3.c
 
 let numero1 = parseInt(prompt("Ingrese un número"))
 let numero2 = parseInt(prompt("Ingrese otro número"))
@@ -30,4 +29,17 @@ if(numero1 > numero2){
 }if(numero2 > numero1){
     alert(numero2)
 }
-/**/
+*/
+
+/* 3.d
+
+let numero1 = parseInt(prompt("Ingrese un número"))
+let numero2 = parseInt(prompt("Ingrese un segundo número"))
+let numero3 = parseInt(prompt("Ingrese un ultimo número"))
+
+if(numero1 === numero2 && numero1 === numero3){
+    alert("Los 3 numeros son iguales")
+}else{
+    alert("Los 3 numeros NO son iguales")
+}
+*/
