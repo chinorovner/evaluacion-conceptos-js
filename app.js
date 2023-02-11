@@ -76,3 +76,14 @@ if(imc < 18.5){
     alert("Usted tiene obesidad ya que tiene un IMC (Indice de Masa Corporal) de " + imc)
 }
 */
+
+/* 4
+let numero = prompt("Ingrese un número")
+let numeroParseado = parseInt(numero)
+
+if(numero != numeroParseado){
+    console.error(numero + " No es un número, es un " + typeof numero + ", por favor ingrese un valor numerico.")
+}else{
+    console.log("PERFECTO, el valor ingresado es un " + typeof numeroParseado)
+}
+*/
